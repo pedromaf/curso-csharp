@@ -14,6 +14,12 @@ namespace ByteBank.Funcionarios
         {
            
         }
+
+        public override void AumentarSalario()
+        {
+            Salario *= 1.15;
+        }
+
         public override double GetBonificacao()
         {
             return Salario + (base.GetBonificacao());
