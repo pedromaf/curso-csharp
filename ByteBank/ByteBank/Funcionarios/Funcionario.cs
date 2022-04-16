@@ -14,7 +14,6 @@ namespace ByteBank.Funcionarios
         public string CPF { get; private set; }
         public double Salario { get; protected set; }
 
-
         public Funcionario(string nome, string cpf, double salario)
         {
             Nome = nome;
